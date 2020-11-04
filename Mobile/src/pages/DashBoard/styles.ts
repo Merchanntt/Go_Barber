@@ -1,0 +1,88 @@
+import styled from 'styled-components/native';
+import { FlatList } from 'react-native';
+import { RectButton } from 'react-native-gesture-handler';
+import { ProvidersData } from './index';
+
+export const Container = styled.View`
+  flex: 1;
+`;
+
+export const Header = styled.View`
+  padding: 20px;
+  background: #28262e;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const HeaderTitle = styled.Text`
+  color: #f4ede8;
+  font-size: 20px;
+  font-family: 'RobotoSlab-Regular';
+  line-height: 28px;
+`;
+
+export const ProfileName = styled.Text`
+  color: #ff9000;
+  font-family: 'RobotoSlab-Medium';
+`;
+
+export const ProfileButton = styled.TouchableOpacity``;
+
+export const ProfileImage = styled.Image`
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+`;
+
+export const ProviderList = styled(
+  FlatList as new () => FlatList<ProvidersData>,
+)`
+  padding: 32px 24px 16px;
+`;
+
+export const ProvidersListTitle = styled.Text`
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #f4ede8;
+  font-family: 'RobotoSlab-Medium';
+`;
+
+export const ProviderContainer = styled(RectButton)`
+  background: #3e3b47;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const ProviderImage = styled.Image`
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+`;
+
+export const ProviderInfo = styled.View`
+  flex: 1;
+  margin-left: 20px;
+`;
+
+export const ProviderName = styled.Text`
+  font-family: 'RobotoSlab-Medium';
+  font-size: 18px;
+  color: #f4ede8;
+`;
+
+export const ProviderMeta = styled.View`
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+`;
+
+export const ProviderMetaText = styled.Text`
+  font-family: 'RobotoSlab-Regular';
+  color: #999591;
+  margin-left: 8px;
+`;
