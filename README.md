@@ -1,13 +1,12 @@
 <div align="center">
 
-# Go Barber
+# <img src='./Logo.gif'/> 
 
 [Features](#Features) |
 [Mobile](#Mobile) |
 [Web](#Web) |
 [Getting Started](#Getting_Started)
 
-<img src='./web/src/assets/images/map-marker.svg'/> 
 
 ![node-current](https://img.shields.io/node/v/package)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Merchanntt/Go_Barber)
