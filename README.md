@@ -1,12 +1,11 @@
 <div align="center">
 
-# <img src='./Logo.gif'/> 
-
 [Features](#Features) |
 [Mobile](#Mobile) |
 [Web](#Web) |
 [Getting Started](#Getting_Started)
 
+# <img src='./Logo.gif'/> 
 
 ![node-current](https://img.shields.io/node/v/package)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Merchanntt/Go_Barber)
