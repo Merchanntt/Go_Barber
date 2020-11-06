@@ -20,6 +20,15 @@ You can make appointments if a available barber, looking the day, hour, month an
 Now, if you're a barber, will be possible to list your day, month and year schedule.
 The account creation can be use in any application. The authentication, security and updates from your profile is garatied.
 
+<div align="center">
+  
+## Web
+
+![](https://media.giphy.com/media/ppSm5CcfgXKglfcWH0/giphy.gif)
+![](https://media.giphy.com/media/E7tM7gzIL5AZw3Dhcc/giphy.gif)
+  
+</div>
+
 ## Getting_Started
 
 To execute this project, you will need:
